@@ -1,46 +1,44 @@
-<!DOCTYPE    html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Formularz z pytaniami</title>
 </head>
-<body>  
-<h1>Bar pod palmami!</h1>
-<p><strong>Witaj w naszym barze!</strong></p>
-<p>Zagraj w planszówki, wypij pysznego drinka i spędź czas w świetnej atmosferze!</p>
-<p><em>Wstęp dla osób +18!</em></p>
-<h2>Menu</h2>
+<hr>
+
+<body>
+    <h1>Formularz z pytaniami</h1>
+    <form>
+        <label for="imie">Imię:</label>
+        <input type="text" id="imie" name="imie" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="pytanie">Twoje pytanie:</label><br>
+        <textarea id="pytanie" name="pytanie" rows="5" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Wyślij">
+    </form>
+</body>
+<br>
+<hr>
+<h2>tabela</h2>
 <table border="5">
     <tr>
-        <th>Drink</th>
-        <th>Cena</th>
+        <th>Imię</th>
+        <th>Email</th>
+        <th>Pytanie</th>
     </tr>
     <tr>
-        <td>Margarita</td>
-        <td>20 zł</td>
-    </tr>
-    <tr>
-        <td>Piña Colada</td>
-        <td>22 zł</td>
-    </tr>
-    <tr>
-        <td>Mojito</td>
-        <td>18 zł</td>
+        <td>Jan</td>
+        <td>jan@example.com</td>
+        <td>Jak się masz?</td>
     </tr>
 </table>
-<h3>Godziny otwarcia</h3>
-<ul>
-    <li><strong>Poniedziałek - Piątek:</strong> 18:00-2:00</li>
-    <li><strong>Sobota - Niedziela:</strong> 16:00-4:00</li>
-</ul>
-<h4>Zdjęcia z naszego baru</h4>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7QBQfYOsBGzpDnhMgn5S0-0KpoaKomFMvKWiIGhCqaA&s=10" alt="Bar pod palmami" width="300" height="200">
-<h5>Kontakt</h5>
-<p>Adres:< ul. Plażowa 10, 67-676 Radom</p>
-<br>
-<p>Odwiedź naszą stronę internetową! <a href="https://www.barpodpalmami.pl" target="_blank">Facebook</a></p>
-</body>
-</html>
+<h2>Link do strony z pytaniami</h2>
+<a href="https://www.example.com/pytania" target="_blank">Kliknij tutaj, aby przejść do strony z pytaniami</a><br><br>
+<hr>
+<img src="https://hum.usz.edu.pl/wp-content/uploads/logo-HUM-300x66.png" alt="Logo HUM" width="300" height="66">
